@@ -145,12 +145,14 @@ const multiLineFunction = (num1, num2) => {
 
 
 // ৬. ফাংশন এর মধ্যে ডিফল্ট প্যারামিটার কিভাবে ডিক্লেয়ার করে
-
+const defaultPerameter = (x = 9) => {
+    console.log(x);
+}
 
 
 // ৭. অপশনাল চেইনিং কি জিনিস, সেটা কখন কিভাবে ইউজ করে ?
 
-
+console.log(objectIdentity?.object?.name);
 
 
 
